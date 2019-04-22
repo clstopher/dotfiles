@@ -14,6 +14,9 @@ export WEBLINC_CLI_USERNAME="Chris.Shaffer"
 # Edit a file, don't keep it in recent edit, and when finished, find an iTerm window to reactivate.
 export EDITOR='/usr/local/bin/mvim -f --nomru -c "au VimLeave * !open -a iTerm"'
 
+export LSCOLORS="exfxcxdxbxegedabagacad"
+alias ls='ls -GH'
+
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   # fix for sed error: https://stackoverflow.com/questions/11287564/getting-sed-error-illegal-byte-sequence-in-bash
   LC_ALL=C . $(brew --prefix)/etc/bash_completion
