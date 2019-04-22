@@ -1,0 +1,200 @@
+Installed Leaves:
+=================
+advancecomp
+bash-completion
+cscope
+dvdbackup
+elm
+gifsicle
+git
+git-flow
+gnu-sed
+imagemagick
+jhead
+jpegoptim
+lzo
+nodenv
+nvm
+optipng
+p7zip
+pngcrush
+jonof/kenutils/pngout
+pngquant
+purescript
+rbenv
+vim
+yarn
+yuicompressor
+
+All Installed:
+==============
+advancecomp
+autoconf
+bash-completion
+cscope
+dvdbackup
+elm
+freetype
+gdbm
+gettext
+gifsicle
+git
+git-flow
+glib
+gnu-sed
+icu4c
+ilmbase
+imagemagick
+jhead
+jpeg
+jpegoptim
+libde265
+libdvdcss
+libdvdread
+libffi
+libheif
+libomp
+libpng
+libtiff
+libtool
+libyaml
+little-cms2
+lua
+lzo
+node
+node-build
+nodenv
+nvm
+openexr
+openjpeg
+openssl
+optipng
+p7zip
+pcre
+pcre2
+perl
+pkg-config
+pngcrush
+pngout
+pngquant
+purescript
+python
+rbenv
+readline
+ruby
+ruby-build
+shared-mime-info
+sqlite
+vim
+webp
+x265
+xz
+yarn
+yuicompressor
+
+Dependencies:
+=============
+advancecomp: 
+autoconf: 
+bash-completion: 
+cscope: 
+dvdbackup: libdvdcss libdvdread
+elm: 
+freetype: libpng
+gdbm: 
+gettext: 
+gifsicle: 
+git: gettext pcre2
+git-flow: 
+glib: gdbm gettext libffi openssl pcre python readline sqlite xz
+gnu-sed: 
+icu4c: 
+ilmbase: 
+imagemagick: freetype gdbm gettext glib ilmbase jpeg libde265 libffi libheif libomp libpng libtiff libtool little-cms2 openexr openjpeg openssl pcre python readline shared-mime-info sqlite webp x265 xz
+jhead: 
+jpeg: 
+jpegoptim: jpeg
+libde265: 
+libdvdcss: 
+libdvdread: libdvdcss
+libffi: 
+libheif: jpeg libde265 libpng x265
+libomp: 
+libpng: 
+libtiff: jpeg
+libtool: 
+libyaml: 
+little-cms2: jpeg libtiff
+lua: 
+lzo: 
+node: icu4c
+node-build: autoconf openssl pkg-config
+nodenv: autoconf node-build openssl pkg-config
+nvm: 
+openexr: ilmbase
+openjpeg: jpeg libpng libtiff little-cms2
+openssl: 
+optipng: 
+p7zip: 
+pcre: 
+pcre2: 
+perl: 
+pkg-config: 
+pngcrush: 
+jonof/kenutils/pngout: 
+pngquant: jpeg libpng libtiff little-cms2
+purescript: 
+python: gdbm openssl readline sqlite xz
+rbenv: autoconf openssl pkg-config ruby-build
+readline: 
+ruby: libyaml openssl readline
+ruby-build: autoconf openssl pkg-config
+shared-mime-info: gdbm gettext glib libffi openssl pcre python readline sqlite xz
+sqlite: readline
+vim: gdbm gettext libyaml lua openssl perl python readline ruby sqlite xz
+webp: jpeg libpng
+x265: 
+xz: 
+yarn: icu4c node
+yuicompressor: 
+
+Casks:
+======
+adobe-acrobat-reader
+android-studio
+atom
+caffeine
+coconutbattery
+cyberduck
+db-browser-for-sqlite
+filezilla
+firefox
+google-chrome
+google-chrome-canary
+gramps
+handbrake
+intellij-idea-ce
+iterm2
+jing
+keka
+keybase
+licecap
+macpass
+macs-fan-control
+macvim
+mongodb-compass-community
+p4merge
+phantomjs
+postman
+pycharm
+slack
+sourcetree
+spectacle
+spotify
+typora
+vagrant
+virtualbox
+visual-studio-code
+vlc
+xquartz
+zoomus
