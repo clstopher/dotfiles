@@ -15,7 +15,7 @@ export WEBLINC_CLI_USERNAME="Chris.Shaffer"
 export EDITOR='/usr/local/bin/mvim -f --nomru -c "au VimLeave * !open -a iTerm"'
 
 export LSCOLORS="exfxcxdxbxegedabagacad"
-alias ls='ls -GH'
+alias ls='ls -FGH'
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   # fix for sed error: https://stackoverflow.com/questions/11287564/getting-sed-error-illegal-byte-sequence-in-bash
