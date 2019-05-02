@@ -9,7 +9,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
-Plugin 'https://github.com/sjl/badwolf'
+Plugin 'dracula/vim'
 Plugin 'https://github.com/editorconfig/editorconfig-vim'
 
 call vundle#end()
@@ -25,8 +25,6 @@ filetype plugin indent on
 " Put your non-Plugin stuff after this line
 
 syntax on
-set background=dark
-colorscheme badwolf
 
 set ignorecase
 set backspace=indent,eol,start
