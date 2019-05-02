@@ -1,0 +1,7 @@
+{
+    "extension.prophet.upload.enabled": true,
+    "workbench.editor.enablePreview": false,
+    "editor.renderWhitespace": "boundary",
+    "extensions.autoUpdate": false,
+    "workbench.colorTheme": "Dracula"
+}
