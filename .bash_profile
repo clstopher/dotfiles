@@ -14,6 +14,13 @@ export WEBLINC_CLI_USERNAME="Chris.Shaffer"
 # Edit a file, don't keep it in recent edit, and when finished, find an iTerm window to reactivate.
 export EDITOR='/usr/local/bin/mvim -f --nomru -c "au VimLeave * !open -a iTerm"'
 
+# Used for Android development; Specifically to React Native
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 export LSCOLORS="ExFxBxDxCxegedabagacad"
 alias ls='ls -FGH'
 
