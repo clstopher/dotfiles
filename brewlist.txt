@@ -3,8 +3,10 @@ Installed Leaves:
 advancecomp
 bash-completion
 cscope
+csshx
 dvdbackup
 elm
+ghostscript
 gifsicle
 git
 git-flow
@@ -13,6 +15,7 @@ imagemagick
 jhead
 jpegoptim
 lzo
+mongodb
 nodenv
 nvm
 optipng
@@ -23,6 +26,7 @@ pngquant
 purescript
 rbenv
 vim
+watchman
 yarn
 yuicompressor
 
@@ -32,11 +36,13 @@ advancecomp
 autoconf
 bash-completion
 cscope
+csshx
 dvdbackup
 elm
 freetype
 gdbm
 gettext
+ghostscript
 gifsicle
 git
 git-flow
@@ -61,6 +67,7 @@ libyaml
 little-cms2
 lua
 lzo
+mongodb
 node
 node-build
 nodenv
@@ -79,6 +86,7 @@ pngout
 pngquant
 purescript
 python
+python@2
 rbenv
 readline
 ruby
@@ -86,6 +94,7 @@ ruby-build
 shared-mime-info
 sqlite
 vim
+watchman
 webp
 x265
 xz
@@ -98,11 +107,13 @@ advancecomp:
 autoconf: 
 bash-completion: 
 cscope: 
+csshx: 
 dvdbackup: libdvdcss libdvdread
 elm: 
 freetype: libpng
 gdbm: 
 gettext: 
+ghostscript: jpeg libtiff
 gifsicle: 
 git: gettext pcre2
 git-flow: 
@@ -118,7 +129,7 @@ libde265:
 libdvdcss: 
 libdvdread: libdvdcss
 libffi: 
-libheif: jpeg libde265 libpng x265
+libheif: gdbm gettext glib jpeg libde265 libffi libpng openssl pcre python readline shared-mime-info sqlite x265 xz
 libomp: 
 libpng: 
 libtiff: jpeg
@@ -127,6 +138,7 @@ libyaml:
 little-cms2: jpeg libtiff
 lua: 
 lzo: 
+mongodb: gdbm openssl python@2 readline sqlite
 node: icu4c
 node-build: autoconf openssl pkg-config
 nodenv: autoconf node-build openssl pkg-config
@@ -145,6 +157,7 @@ jonof/kenutils/pngout:
 pngquant: jpeg libpng libtiff little-cms2
 purescript: 
 python: gdbm openssl readline sqlite xz
+python@2: gdbm openssl readline sqlite
 rbenv: autoconf openssl pkg-config ruby-build
 readline: 
 ruby: libyaml openssl readline
@@ -152,7 +165,8 @@ ruby-build: autoconf openssl pkg-config
 shared-mime-info: gdbm gettext glib libffi openssl pcre python readline sqlite xz
 sqlite: readline
 vim: gdbm gettext libyaml lua openssl perl python readline ruby sqlite xz
-webp: jpeg libpng
+watchman: gdbm openssl pcre python readline sqlite xz
+webp: jpeg libpng libtiff
 x265: 
 xz: 
 yarn: icu4c node
@@ -163,10 +177,12 @@ Casks:
 adobe-acrobat-reader
 android-studio
 atom
+bitwarden
 caffeine
 coconutbattery
 cyberduck
 db-browser-for-sqlite
+dolphin
 filezilla
 firefox
 google-chrome
@@ -181,6 +197,7 @@ keybase
 licecap
 macpass
 macs-fan-control
+mactex
 macvim
 mongodb-compass-community
 p4merge
@@ -196,5 +213,6 @@ vagrant
 virtualbox
 visual-studio-code
 vlc
+workarea-cli
 xquartz
 zoomus
