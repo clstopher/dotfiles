@@ -31,3 +31,6 @@ fi
 
 eval "$(rbenv init -)"
 eval "$(nodenv init -)"
+
+# Helpful aliases
+alias dcu='docker-compose up'
