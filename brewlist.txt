@@ -15,7 +15,6 @@ imagemagick
 jhead
 jpegoptim
 lzo
-mongodb
 nodenv
 nvm
 optipng
@@ -24,6 +23,7 @@ pngcrush
 jonof/kenutils/pngout
 pngquant
 purescript
+python@2
 rbenv
 vim
 watchman
@@ -68,13 +68,13 @@ little-cms2
 lua
 lzo
 mongodb
-node
 node-build
 nodenv
 nvm
 openexr
 openjpeg
 openssl
+openssl@1.1
 optipng
 p7zip
 pcre
@@ -117,7 +117,7 @@ ghostscript: jpeg libtiff
 gifsicle: 
 git: gettext pcre2
 git-flow: 
-glib: gdbm gettext libffi openssl pcre python readline sqlite xz
+glib: gdbm gettext libffi openssl@1.1 pcre python readline sqlite xz
 gnu-sed: 
 icu4c: 
 ilmbase: 
@@ -129,7 +129,7 @@ libde265:
 libdvdcss: 
 libdvdread: libdvdcss
 libffi: 
-libheif: gdbm gettext glib jpeg libde265 libffi libpng openssl pcre python readline shared-mime-info sqlite x265 xz
+libheif: gdbm gettext glib jpeg libde265 libffi libpng openssl@1.1 pcre python readline shared-mime-info sqlite x265 xz
 libomp: 
 libpng: 
 libtiff: jpeg
@@ -138,14 +138,13 @@ libyaml:
 little-cms2: jpeg libtiff
 lua: 
 lzo: 
-mongodb: gdbm openssl python@2 readline sqlite
-node: icu4c
 node-build: autoconf openssl pkg-config
 nodenv: autoconf node-build openssl pkg-config
 nvm: 
 openexr: ilmbase
 openjpeg: jpeg libpng libtiff little-cms2
 openssl: 
+openssl@1.1: 
 optipng: 
 p7zip: 
 pcre: 
@@ -156,16 +155,16 @@ pngcrush:
 jonof/kenutils/pngout: 
 pngquant: jpeg libpng libtiff little-cms2
 purescript: 
-python: gdbm openssl readline sqlite xz
-python@2: gdbm openssl readline sqlite
+python: gdbm openssl@1.1 readline sqlite xz
+python@2: gdbm openssl@1.1 readline sqlite
 rbenv: autoconf openssl pkg-config ruby-build
 readline: 
-ruby: libyaml openssl readline
-ruby-build: autoconf openssl pkg-config
-shared-mime-info: gdbm gettext glib libffi openssl pcre python readline sqlite xz
+ruby: libyaml openssl@1.1 readline
+ruby-build: autoconf openssl@1.1 pkg-config
+shared-mime-info: gdbm gettext glib libffi openssl@1.1 pcre python readline sqlite xz
 sqlite: readline
-vim: gdbm gettext libyaml lua openssl perl python readline ruby sqlite xz
-watchman: gdbm openssl pcre python readline sqlite xz
+vim: gdbm gettext libyaml lua openssl@1.1 perl python readline ruby sqlite xz
+watchman: gdbm openssl@1.1 pcre python readline sqlite xz
 webp: jpeg libpng libtiff
 x265: 
 xz: 
