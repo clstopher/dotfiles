@@ -3,5 +3,8 @@
     "workbench.editor.enablePreview": false,
     "editor.renderWhitespace": "boundary",
     "extensions.autoUpdate": false,
-    "workbench.colorTheme": "Dracula"
+    "workbench.colorTheme": "Dracula",
+    "files.associations": {
+        "*.decorator": "ruby"
+    }
 }
