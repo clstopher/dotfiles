@@ -49,6 +49,7 @@
 [user]
   name = Chris Shaffer
   email = chris.shaffer@cqlcorp.com
+  signingkey = 08367FBAD8B3EBD1
 
 [core]
   excludesfile = /Users/clstopher/.gitignore_global
@@ -73,6 +74,7 @@
   default = upstream
 
 [commit]
+  gpgsign = true
 
 [diff]
   wsErrorHighlight = old,new
