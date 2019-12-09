@@ -6,5 +6,7 @@
     "workbench.colorTheme": "Dracula",
     "files.associations": {
         "*.decorator": "ruby"
-    }
+    },
+    "git.countBadge": "tracked",
+    "git.untrackedChanges": "separate"
 }
