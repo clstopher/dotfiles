@@ -68,6 +68,7 @@ little-cms2
 lua
 lzo
 mongodb
+node
 node-build
 nodenv
 nvm
@@ -121,7 +122,7 @@ glib: gdbm gettext libffi openssl@1.1 pcre python readline sqlite xz
 gnu-sed: 
 icu4c: 
 ilmbase: 
-imagemagick: freetype gdbm gettext glib ilmbase jpeg libde265 libffi libheif libomp libpng libtiff libtool little-cms2 openexr openjpeg openssl pcre python readline shared-mime-info sqlite webp x265 xz
+imagemagick: freetype gdbm gettext glib ilmbase jpeg libde265 libffi libheif libomp libpng libtiff libtool little-cms2 openexr openjpeg openssl@1.1 pcre python readline shared-mime-info sqlite webp x265 xz
 jhead: 
 jpeg: 
 jpegoptim: jpeg
@@ -138,12 +139,12 @@ libyaml:
 little-cms2: jpeg libtiff
 lua: 
 lzo: 
-node-build: autoconf openssl pkg-config
-nodenv: autoconf node-build openssl pkg-config
+node: icu4c
+node-build: autoconf openssl@1.1 pkg-config
+nodenv: autoconf node-build openssl@1.1 pkg-config
 nvm: 
 openexr: ilmbase
 openjpeg: jpeg libpng libtiff little-cms2
-openssl: 
 openssl@1.1: 
 optipng: 
 p7zip: 
@@ -160,7 +161,7 @@ python@2: gdbm openssl@1.1 readline sqlite
 rbenv: autoconf openssl pkg-config ruby-build
 readline: 
 ruby: libyaml openssl@1.1 readline
-ruby-build: autoconf openssl@1.1 pkg-config
+ruby-build: autoconf pkg-config readline
 shared-mime-info: gdbm gettext glib libffi openssl@1.1 pcre python readline sqlite xz
 sqlite: readline
 vim: gdbm gettext libyaml lua openssl@1.1 perl python readline ruby sqlite xz
@@ -191,9 +192,9 @@ handbrake
 intellij-idea-ce
 iterm2
 jing
+joplin
 keka
 keybase
-licecap
 macpass
 macs-fan-control
 mactex
@@ -203,13 +204,11 @@ p4merge
 phantomjs
 postman
 pycharm
+robo-3t
 slack
 sourcetree
-spectacle
 spotify
 typora
-vagrant
-virtualbox
 visual-studio-code
 vlc
 workarea-cli
