@@ -6,6 +6,7 @@ cscope
 csshx
 dvdbackup
 elm
+exercism
 ghostscript
 gifsicle
 git
@@ -39,6 +40,7 @@ cscope
 csshx
 dvdbackup
 elm
+exercism
 freetype
 gdbm
 gettext
@@ -111,6 +113,7 @@ cscope:
 csshx: 
 dvdbackup: libdvdcss libdvdread
 elm: 
+exercism: 
 freetype: libpng
 gdbm: 
 gettext: 
@@ -183,8 +186,8 @@ coconutbattery
 cyberduck
 db-browser-for-sqlite
 dolphin
-filezilla
 firefox
+gnucash
 google-chrome
 google-chrome-canary
 gramps
