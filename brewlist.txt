@@ -7,7 +7,6 @@ csshx
 dvdbackup
 elm
 exercism
-ghostscript
 gifsicle
 git
 git-flow
@@ -24,6 +23,7 @@ pngcrush
 jonof/kenutils/pngout
 pngquant
 purescript
+python
 python@2
 rbenv
 vim
@@ -38,6 +38,8 @@ autoconf
 bash-completion
 cscope
 csshx
+docbook
+docbook-xsl
 dvdbackup
 elm
 exercism
@@ -49,6 +51,7 @@ gifsicle
 git
 git-flow
 glib
+gnu-getopt
 gnu-sed
 icu4c
 ilmbase
@@ -61,6 +64,7 @@ libdvdcss
 libdvdread
 libffi
 libheif
+liblqr
 libomp
 libpng
 libtiff
@@ -90,6 +94,7 @@ pngquant
 purescript
 python
 python@2
+python@3.8
 rbenv
 readline
 ruby
@@ -100,6 +105,7 @@ vim
 watchman
 webp
 x265
+xmlto
 xz
 yarn
 yuicompressor
@@ -111,6 +117,8 @@ autoconf:
 bash-completion: 
 cscope: 
 csshx: 
+docbook: 
+docbook-xsl: docbook
 dvdbackup: libdvdcss libdvdread
 elm: 
 exercism: 
@@ -121,11 +129,12 @@ ghostscript: jpeg libtiff
 gifsicle: 
 git: gettext pcre2
 git-flow: 
-glib: gdbm gettext libffi openssl@1.1 pcre python readline sqlite xz
+glib: gdbm gettext libffi openssl@1.1 pcre python@3.8 readline sqlite xz
+gnu-getopt: 
 gnu-sed: 
 icu4c: 
 ilmbase: 
-imagemagick: freetype gdbm gettext glib ilmbase jpeg libde265 libffi libheif libomp libpng libtiff libtool little-cms2 openexr openjpeg openssl@1.1 pcre python readline shared-mime-info sqlite webp x265 xz
+imagemagick: docbook docbook-xsl freetype gdbm gettext ghostscript glib gnu-getopt ilmbase jpeg libde265 libffi libheif liblqr libomp libpng libtiff libtool little-cms2 openexr openjpeg openssl@1.1 pcre python@3.8 readline shared-mime-info sqlite webp x265 xmlto xz
 jhead: 
 jpeg: 
 jpegoptim: jpeg
@@ -133,7 +142,8 @@ libde265:
 libdvdcss: 
 libdvdread: libdvdcss
 libffi: 
-libheif: gdbm gettext glib jpeg libde265 libffi libpng openssl@1.1 pcre python readline shared-mime-info sqlite x265 xz
+libheif: docbook docbook-xsl gdbm gettext glib gnu-getopt jpeg libde265 libffi libpng openssl@1.1 pcre python@3.8 readline shared-mime-info sqlite x265 xmlto xz
+liblqr: gdbm gettext glib libffi openssl@1.1 pcre python@3.8 readline sqlite xz
 libomp: 
 libpng: 
 libtiff: jpeg
@@ -161,16 +171,18 @@ pngquant: jpeg libpng libtiff little-cms2
 purescript: 
 python: gdbm openssl@1.1 readline sqlite xz
 python@2: gdbm openssl@1.1 readline sqlite
+python@3.8: gdbm openssl@1.1 readline sqlite xz
 rbenv: autoconf openssl pkg-config ruby-build
 readline: 
 ruby: libyaml openssl@1.1 readline
 ruby-build: autoconf pkg-config readline
-shared-mime-info: gdbm gettext glib libffi openssl@1.1 pcre python readline sqlite xz
+shared-mime-info: docbook docbook-xsl gdbm gettext glib gnu-getopt libffi openssl@1.1 pcre python@3.8 readline sqlite xmlto xz
 sqlite: readline
-vim: gdbm gettext libyaml lua openssl@1.1 perl python readline ruby sqlite xz
-watchman: gdbm openssl@1.1 pcre python readline sqlite xz
+vim: gdbm gettext libyaml lua openssl@1.1 perl python@3.8 readline ruby sqlite xz
+watchman: gdbm openssl@1.1 pcre python@3.8 readline sqlite xz
 webp: jpeg libpng libtiff
 x265: 
+xmlto: docbook docbook-xsl gnu-getopt
 xz: 
 yarn: icu4c node
 yuicompressor: 
@@ -187,6 +199,7 @@ cyberduck
 db-browser-for-sqlite
 dolphin
 firefox
+free-ruler
 gnucash
 google-chrome
 google-chrome-canary
@@ -202,7 +215,7 @@ macpass
 macs-fan-control
 mactex
 macvim
-mongodb-compass-community
+mongodb-compass
 p4merge
 phantomjs
 postman
