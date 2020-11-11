@@ -13,6 +13,7 @@ git-flow
 gnu-sed
 imagemagick
 jhead
+jonof/kenutils/pngout
 jpegoptim
 lzo
 nodenv
@@ -20,10 +21,8 @@ nvm
 optipng
 p7zip
 pngcrush
-jonof/kenutils/pngout
 pngquant
 purescript
-python
 python@2
 rbenv
 vim
@@ -79,8 +78,8 @@ node-build
 nodenv
 nvm
 openexr
+openjdk
 openjpeg
-openssl
 openssl@1.1
 optipng
 p7zip
@@ -92,9 +91,9 @@ pngcrush
 pngout
 pngquant
 purescript
-python
 python@2
 python@3.8
+python@3.9
 rbenv
 readline
 ruby
@@ -112,16 +111,28 @@ yuicompressor
 
 Dependencies:
 =============
+adobe-acrobat-reader: 
 advancecomp: 
+android-studio: 
+atom: 
 autoconf: 
+balenaetcher: 
 bash-completion: 
+bitwarden: 
+caffeine: 
+coconutbattery: 
 cscope: 
 csshx: 
+cyberduck: 
+db-browser-for-sqlite: 
 docbook: 
 docbook-xsl: docbook
+dolphin: 
 dvdbackup: libdvdcss libdvdread
 elm: 
 exercism: 
+firefox: 
+free-ruler: 
 freetype: libpng
 gdbm: 
 gettext: 
@@ -129,20 +140,31 @@ ghostscript: jpeg libtiff
 gifsicle: 
 git: gettext pcre2
 git-flow: 
-glib: gdbm gettext libffi openssl@1.1 pcre python@3.8 readline sqlite xz
+glib: gdbm gettext libffi openssl@1.1 pcre python@3.9 readline sqlite xz
 gnu-getopt: 
 gnu-sed: 
+gnucash: 
+google-chrome: 
+google-chrome-canary: 
+gramps: 
+handbrake: 
 icu4c: 
 ilmbase: 
-imagemagick: docbook docbook-xsl freetype gdbm gettext ghostscript glib gnu-getopt ilmbase jpeg libde265 libffi libheif liblqr libomp libpng libtiff libtool little-cms2 openexr openjpeg openssl@1.1 pcre python@3.8 readline shared-mime-info sqlite webp x265 xmlto xz
+imagemagick: docbook docbook-xsl freetype gdbm gettext ghostscript glib gnu-getopt ilmbase jpeg libde265 libffi libheif liblqr libomp libpng libtiff libtool little-cms2 openexr openjpeg openssl@1.1 pcre python@3.9 readline shared-mime-info sqlite webp x265 xmlto xz
+intellij-idea-ce: 
+iterm2: 
 jhead: 
+jing: 
+joplin: 
 jpeg: 
 jpegoptim: jpeg
+keka: 
+keybase: 
 libde265: 
 libdvdcss: 
 libdvdread: libdvdcss
 libffi: 
-libheif: docbook docbook-xsl gdbm gettext glib gnu-getopt jpeg libde265 libffi libpng openssl@1.1 pcre python@3.8 readline shared-mime-info sqlite x265 xmlto xz
+libheif: docbook docbook-xsl gdbm gettext glib gnu-getopt jpeg libde265 libffi libpng openssl@1.1 pcre python@3.9 readline shared-mime-info sqlite x265 xmlto xz
 liblqr: gdbm gettext glib libffi openssl@1.1 pcre python@3.8 readline sqlite xz
 libomp: 
 libpng: 
@@ -152,46 +174,70 @@ libyaml:
 little-cms2: jpeg libtiff
 lua: 
 lzo: 
+macpass: 
+macs-fan-control: 
+mactex: ghostscript jpeg libtiff pkg-config
+macvim: 
+mongodb-compass: 
 node: icu4c
 node-build: autoconf openssl@1.1 pkg-config
 nodenv: autoconf node-build openssl@1.1 pkg-config
 nvm: 
 openexr: ilmbase
+openjdk: 
 openjpeg: jpeg libpng libtiff little-cms2
 openssl@1.1: 
 optipng: 
+p4merge: 
 p7zip: 
 pcre: 
 pcre2: 
 perl: 
+phantomjs: 
 pkg-config: 
 pngcrush: 
 jonof/kenutils/pngout: 
 pngquant: jpeg libpng libtiff little-cms2
+postman: 
 purescript: 
-python: gdbm openssl@1.1 readline sqlite xz
+pycharm: 
 python@2: gdbm openssl@1.1 readline sqlite
 python@3.8: gdbm openssl@1.1 readline sqlite xz
+python@3.9: gdbm openssl@1.1 readline sqlite xz
 rbenv: autoconf openssl pkg-config ruby-build
 readline: 
+robo-3t: 
 ruby: libyaml openssl@1.1 readline
 ruby-build: autoconf pkg-config readline
 shared-mime-info: docbook docbook-xsl gdbm gettext glib gnu-getopt libffi openssl@1.1 pcre python@3.8 readline sqlite xmlto xz
+slack: 
+sourcetree: 
+spotify: 
 sqlite: readline
-vim: gdbm gettext libyaml lua openssl@1.1 perl python@3.8 readline ruby sqlite xz
-watchman: gdbm openssl@1.1 pcre python@3.8 readline sqlite xz
+typora: 
+vim: gdbm gettext libyaml lua openssl@1.1 perl python@3.9 readline ruby sqlite xz
+virtualbox: 
+virtualbox-extension-pack: 
+visual-studio-code: 
+vlc: 
+watchman: gdbm openssl@1.1 pcre python@3.9 readline sqlite xz
 webp: jpeg libpng libtiff
+wireshark: 
+workarea/tools/workarea-cli: csshx
 x265: 
 xmlto: docbook docbook-xsl gnu-getopt
+xquartz: 
 xz: 
 yarn: icu4c node
-yuicompressor: 
+yuicompressor: openjdk
+zoomus: 
 
 Casks:
 ======
 adobe-acrobat-reader
 android-studio
 atom
+balenaetcher
 bitwarden
 caffeine
 coconutbattery
@@ -225,8 +271,11 @@ slack
 sourcetree
 spotify
 typora
+virtualbox
+virtualbox-extension-pack
 visual-studio-code
 vlc
+wireshark
 workarea-cli
 xquartz
 zoomus
