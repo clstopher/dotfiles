@@ -15,6 +15,7 @@
   unignore = update-index --no-skip-worktree
   ignored = !git ls-files -v | grep ^S
   dc = difftool --cached
+  dt = difftool
   l  = log --graph --oneline --decorate
   ld = log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative
   ll = log --stat --decorate --source -p
