@@ -5,6 +5,8 @@
   remotes = remote -v
   # Pretty log output
   hist = log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative
+  # Changelog Prep
+  cl = log --pretty=format:'%s'
   st = status -sb
   rv = merge --no-commit --no-ff
   stc = diff --cached --name-only
@@ -16,6 +18,7 @@
   l  = log --graph --oneline --decorate
   ld = log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative
   ll = log --stat --decorate --source -p
+  jt = "!git log --pretty=\"%s\" \"$1\" | grep -Eo \"[A-Za-z]{2,6}[ -_]\\d{1,7}\" | sort -h | uniq #"
   aww = !git diff -w --no-color | git apply --cached --ignore-whitespace
   # from: https://stackoverflow.com/questions/8475448/find-merge-commit-which-includes-a-specific-commit
   find-merge = "!sh -c 'commit=$0 && branch=${1:-HEAD} && (git rev-list $commit..$branch --ancestry-path | cat -n; git rev-list $commit..$branch --first-parent | cat -n) | sort -k2 -s | uniq -f1 -d | sort -n | tail -1 | cut -f2'"
