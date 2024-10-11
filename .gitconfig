@@ -63,12 +63,15 @@
   excludesfile = /Users/clstopher/.gitignore_global
 
 [difftool "p4merge"]
-  cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
-  path = 
+  #cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
+  #path = ~/dotfiles/scripts/p4merge.sh
+  cmd = ~/dotfiles/scripts/p4merge.sh \"$LOCAL\" \"$REMOTE\"
 
 [mergetool "p4merge"]
-  cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
-  trustExitCode = true
+  #cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+  cmd = ~/dotfiles/scripts/p4merge.sh \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+  #cmd = open -W -a p4merge --args \"$LOCAL\" \"$PWD/$REMOTE\" \"$PWD/$MERGED\"
+  trustExitCode = false
 
 [merge]
   tool = p4merge
