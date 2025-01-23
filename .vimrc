@@ -47,4 +47,4 @@ autocmd FileType nerdtree setlocal relativenumber
 set autoread
 
 set encoding=utf-8
-
+colorscheme dracula
